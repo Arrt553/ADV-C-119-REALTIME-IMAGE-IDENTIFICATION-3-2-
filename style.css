@@ -1,0 +1,72 @@
+.heading{
+    font-size: 30px;
+    width: 100%;
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 0px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px #6342f5;
+    font-weight: bolder;
+    cursor: not-allowed;
+    border: 5px 5px double #ff3333;
+
+}
+#line{
+    width: 6px;
+    color: beige;
+}
+.heading_div{
+    float: none;
+    background-color: cornsilk;
+    padding: 10px;
+    border-radius: 18px;
+    color: #2c2e2c;
+    box-shadow: 5px 5px 25px #00ff48;
+    cursor: not-allowed;
+}
+.heading_div2{
+    font-size: 25px;
+    font-weight: 600;
+    cursor: not-allowed;
+}
+
+.result_div{
+    box-shadow: 5px 6px 10px #ff0000;
+    font-size: 25px;
+    float: none;
+    width: 40%;
+}
+.result_div:hover{
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: black;
+    cursor: not-allowed;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: cyan;
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+canvas{
+    border: 10px double  #0d00fc;
+    border-radius: 20px;
+    margin-top: 170px;
+    background-color:deepskyblue;
+}
+#footer:hover{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: not-allowed;
+    background-color: blanchedalmond;
+    color:crimson;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 10px #ffcc00}
+    to{box-shadow: 10px 10px 15px #00ffc8};
+}
